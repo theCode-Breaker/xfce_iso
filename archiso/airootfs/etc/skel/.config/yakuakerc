@@ -1,0 +1,16 @@
+[Appearance]
+BackgroundColorOpacity=60
+HideSkinBorders=true
+SkinInstalledWithKns=true
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=XeroPure
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+KeepOpen=false
+ShowTabBar=false
+Width=70
