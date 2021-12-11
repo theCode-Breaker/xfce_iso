@@ -33,6 +33,10 @@ export PATH=$PATH:/snap/bin
 #iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
+# Package Info
+alias info='sudo pacman -Si '
+alias infox='sudo pacman -Sii '
+
 #ignore upper and lowercase when TAB completion
 bind "set completion-ignore-case on"
 

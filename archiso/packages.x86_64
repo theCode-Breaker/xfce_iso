@@ -150,18 +150,20 @@ mesa
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
+xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 
+
+###XeroLinux Stuff
 xero-calamares
-calamares-config-pure
+calamares-config-xfce
 brightnessctl
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-sddm
 bash
 bash-completion
 dex
@@ -177,9 +179,13 @@ xorg-xrdb
 ###LUKS encryption
 cryptsetup
 
+###Extras
+xdg-user-dirs-gtk
+xdg-desktop-portal-gtk
 aic94xx-firmware
 wd719x-firmware
 upd72020x-fw
+r8168-dkms
 
 #######################################################
 ###      PACKAGES THAT ARE REQUIRED TO BUILD !      ###
@@ -224,6 +230,11 @@ pamac-all
 jq
 lm_sensors
 
+###Themes
+prot16-xfce-terminal
+xfce4-terminal-base16-colors-git
+tempus-themes-xfce4-terminal-git
+
 ###fonts
 adobe-source-sans-pro-fonts
 awesome-terminal-fonts
@@ -241,7 +252,6 @@ assimp
 boost
 cblas
 cifs-utils
-cmake
 cronie
 dconf-editor
 dmidecode
@@ -253,7 +263,6 @@ expac
 file-roller
 fuse2
 fuse3
-
 fuseiso
 galculator
 git
@@ -310,7 +319,6 @@ webkit2gtk
 wmctrl
 xdo
 xdotool
-yakuake
 yt-dlp
 zenity
 zip
@@ -337,16 +345,16 @@ gst-plugins-ugly
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
-pulseaudio-qt
 pulsemixer
 pavucontrol
 python-pulsectl
 
 ###bluetooth
 
-blueberry
 bluez
+blueberry
 bluez-libs
+bluez-tools
 bluez-utils
 
 ###network
@@ -386,7 +394,6 @@ freetype2
 libgsf
 libopenraw
 poppler-glib
-poppler-qt5
 
 ###video
 
@@ -409,17 +416,14 @@ python-websockets
 ###########################################################################
 
 ###applications
-
 firefox
 firefox-adblock-plus
 
 ###tools
-
 grub-tools
 mkinitcpio-openswap
 
 ###utilities
-
 alsi
 archey3
 appstream
@@ -442,34 +446,28 @@ yad
 #######################################################
 
 ##### xorg applications
-
 xorg-server
 xorg-apps
 xorg-xinit
 neofetch
 
 ##### driver for virtualmachines
-
 open-vm-tools
 qemu-guest-agent
 virtualbox-guest-utils
 
 ##### sddm display manager
-
 #sddm
 
 ##### LightDM display manager
-
 lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-settings
+lightdm-slick-greeter
 
 ##### want to have base-devel group
-
 base-devel
 
 ##### want to have linux-headers
-
 linux-headers
 
 ##### want to have a desktop
