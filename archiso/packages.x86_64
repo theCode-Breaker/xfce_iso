@@ -119,6 +119,7 @@ xl2tpd
 dialog
 dnsutils
 grub
+grub-tools
 haveged
 logrotate
 ntp
@@ -135,30 +136,28 @@ nvidia-utils
 nvidia-settings
 
 ###Video
-xf86-video-amdgpu
 xf86-video-ati
-xf86-video-fbdev
-xf86-video-intel
-xf86-video-nouveau
-xf86-video-openchrome
 xf86-video-qxl
 xf86-video-vesa
+xf86-video-fbdev
+xf86-video-intel
 xf86-video-vmware
+xf86-video-amdgpu
+xf86-video-nouveau
+xf86-video-openchrome
 mesa
 
 ###Input
-xf86-input-elographics
+xf86-input-void
 xf86-input-evdev
+xf86-input-vmmouse
 xf86-input-libinput
 xf86-input-synaptics
-xf86-input-vmmouse
-xf86-input-void
-
+xf86-input-elographics
 
 ###XeroLinux Stuff
 xero-calamares
 calamares-config-xfce
-brightnessctl
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -180,12 +179,14 @@ xorg-xrdb
 cryptsetup
 
 ###Extras
+imwheel
+r8168-dkms
+upd72020x-fw
+brightnessctl
+wd719x-firmware
+aic94xx-firmware
 xdg-user-dirs-gtk
 xdg-desktop-portal-gtk
-aic94xx-firmware
-wd719x-firmware
-upd72020x-fw
-r8168-dkms
 
 #######################################################
 ###      PACKAGES THAT ARE REQUIRED TO BUILD !      ###
@@ -221,19 +222,29 @@ network-manager-applet
 
 ###applications
 exa
-kwrite
+geany
 gmrun
 numlockx
 pamac-all
 
-###conky
+###sensors
 jq
 lm_sensors
 
-###Themes
-prot16-xfce-terminal
+###Terminal Themes
+prot16-xfce4-terminal
 xfce4-terminal-base16-colors-git
 tempus-themes-xfce4-terminal-git
+
+###Rice Related
+rofi
+plank
+polybar
+variety
+picom
+sweet-gtk-theme-mars-git
+nerd-fonts-jetbrains-mono
+arcolinux-plank-themes-git
 
 ###fonts
 adobe-source-sans-pro-fonts
@@ -278,7 +289,6 @@ hardinfo
 hddtemp
 hw-probe
 intltool
-iw
 jsoncpp
 libinput
 libmtp
@@ -395,12 +405,6 @@ libgsf
 libopenraw
 poppler-glib
 
-###video
-
-xf86-input-libinput
-xf86-input-vmmouse
-xf86-input-void
-
 # Python & Libs
 
 python-cffi
@@ -409,6 +413,7 @@ python-docopt
 python-pyaudio
 python-anytree
 python-pygments
+python-pyparted
 python-websockets
 
 ###########################################################################
@@ -417,10 +422,9 @@ python-websockets
 
 ###applications
 firefox
-firefox-adblock-plus
+firefox-ublock-origin
 
 ###tools
-grub-tools
 mkinitcpio-openswap
 
 ###utilities
@@ -428,6 +432,7 @@ alsi
 archey3
 appstream
 archiso
+catfish
 downgrade
 hardcode-fixer-git
 inetutils
@@ -435,7 +440,6 @@ inxi
 lshw
 paru-bin
 arcolinux-paru-git
-python-pyparted
 synapse
 sysprof
 systemd-manager
@@ -456,13 +460,10 @@ open-vm-tools
 qemu-guest-agent
 virtualbox-guest-utils
 
-##### sddm display manager
-#sddm
-
 ##### LightDM display manager
 lightdm
-lightdm-settings
-lightdm-slick-greeter
+lightdm-webkit2-greeter
+lightdm-webkit-theme-aether
 
 ##### want to have base-devel group
 base-devel
@@ -481,7 +482,6 @@ linux-headers
 
 exo
 garcon
-tumbler
 xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
@@ -542,7 +542,6 @@ ocs-url
 
 ## Multimedia
 
-kipi-plugins
 ffmpegthumbs
 
 ##### want to add/use the ArcoLinux repos

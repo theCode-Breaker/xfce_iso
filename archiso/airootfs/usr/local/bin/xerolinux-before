@@ -17,6 +17,11 @@ echo "#################################"
 mkdir -p /boot/grub/themes
 cp -Rf /usr/share/grub/themes/sleek /boot/grub/themes/
 
+#echo "Fixing XFCE Wallpapers"
+#echo "#################################"
+#rm -rf /usr/share/backgrounds/xfce/*
+#mv /usr/share/XeroLinux/* /usr/share/backgrounds/xfce/
+
 echo "Changing into our own linux.preset"
 echo "#################################"
 mv /etc/mkinitcpio.d/xerolinux /etc/mkinitcpio.d/linux.preset
