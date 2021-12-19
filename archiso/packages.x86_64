@@ -156,6 +156,7 @@ xf86-input-synaptics
 xf86-input-elographics
 
 ###XeroLinux Stuff
+xero-xfce-rice
 xero-calamares
 calamares-config-xfce
 
@@ -240,8 +241,9 @@ tempus-themes-xfce4-terminal-git
 rofi
 plank
 polybar
-variety
 picom
+fluent-cursor-theme-git
+neru-icon-newyear-theme
 sweet-gtk-theme-mars-git
 nerd-fonts-jetbrains-mono
 arcolinux-plank-themes-git

@@ -1,3 +1,0 @@
-0
-/usr/share/XeroLinux/xfce-verticals.png
-/usr/share/backgrounds/xfce/xfce-verticals.png
