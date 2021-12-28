@@ -477,8 +477,8 @@ virtualbox-guest-utils
 
 ##### LightDM display manager
 lightdm
-lightdm-webkit2-greeter
-lightdm-webkit-theme-aether
+lightdm-settings
+lightdm-slick-greeter
 
 ##### want to have base-devel group
 base-devel
