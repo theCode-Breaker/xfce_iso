@@ -160,6 +160,9 @@ alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable s
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
+#StayRolling
+alias dist-upgrade='update && reset'
+
 #shutdown or reboot
 alias sr="sudo reboot"
 alias ssn="sudo shutdown now"
