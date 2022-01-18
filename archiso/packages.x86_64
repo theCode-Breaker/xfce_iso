@@ -246,19 +246,19 @@ lm_sensors
 
 ###Terminal Themes
 prot16-xfce4-terminal
-xfce4-terminal-base16-colors-git
 tempus-themes-xfce4-terminal-git
 
 ###Rice Related
 rofi
-xsnow
+qt5ct
 plank
 polybar
-picom
+kvantum
+dracula-icons-git
+ant-dracula-gtk-theme
 fluent-cursor-theme-git
-neru-icon-newyear-theme
-sweet-gtk-theme-mars-git
 nerd-fonts-jetbrains-mono
+ant-dracula-kvantum-theme-git
 arcolinux-plank-themes-git
 
 ###fonts
@@ -553,6 +553,7 @@ xfce4-panel-profiles
 
 go
 gnome-system-tools
+jgmenu
 pacman-contrib
 ocs-url
 

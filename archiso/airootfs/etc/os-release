@@ -1,10 +1,10 @@
-NAME="XeroLinux"
-PRETTY_NAME="XeroLinux"
-ID=xerolinux
+NAME="XeroLinux-XFCE"
+PRETTY_NAME="XeroLinux-XFCE"
+ID=xerolinux-xfce
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://xerolinux.xyz/"
-LOGO=xerolinux
-IMAGE_ID=xerolinux
-IMAGE_VERSION=2021.12.23
+LOGO=xerolinux-xfce
+IMAGE_ID=xerolinux-xfce
+IMAGE_VERSION=2022.01.01
