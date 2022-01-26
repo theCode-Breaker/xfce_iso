@@ -36,8 +36,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 60-1"
-	buildFolder=$HOME"/xerolinux-pure-build"
-	outFolder=$HOME"/xerolinux-Out"
+	buildFolder=$HOME"/xfce-build"
+	outFolder=$HOME"/xfce-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
@@ -192,10 +192,10 @@ echo
  	#Setting variables
 
  	oldname1='ArchLinux'
- 	newname1='XeroLinux'
+ 	newname1='XeroLinux-XFCE'
 
  	oldname2='Arch Linux'
- 	newname2='XeroLinux'
+ 	newname2='XeroLinux-XFCE'
 
  	echo "Changing all references"
  	echo
