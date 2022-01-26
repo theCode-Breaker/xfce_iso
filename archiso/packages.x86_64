@@ -194,10 +194,7 @@ cryptsetup
 ###Extras
 imwheel
 r8168-dkms
-upd72020x-fw
 brightnessctl
-wd719x-firmware
-aic94xx-firmware
 xdg-user-dirs-gtk
 mkinitcpio-firmware
 xdg-desktop-portal-gtk
@@ -256,6 +253,7 @@ plank
 polybar
 kvantum
 dracula-icons-git
+xero-gtk-wallpapers
 ant-dracula-gtk-theme
 fluent-cursor-theme-git
 nerd-fonts-jetbrains-mono
@@ -518,7 +516,6 @@ xfwm4-themes
 # https://www.archlinux.org/groups/x86_64/xfce4-goodies/
 
 ristretto
-xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin

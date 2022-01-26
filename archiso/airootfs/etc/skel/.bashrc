@@ -97,9 +97,6 @@ alias reft='sudo systemctl enable reflector.service reflector.timer && sudo syst
 #quickly kill stuff
 alias kc='killall conky'
 
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo mount -t vboxsf -o rw,uid=1000,gid=1000 Public /home/$USER/Public"
-
 #Bash aliases
 alias mkfile='touch'
 alias thor='sudo thunar'
@@ -159,6 +156,9 @@ alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable s
 #Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
+
+##Refresh Keys
+alias rkeys='sudo pacman-key --refresh-keys'
 
 #StayRolling
 alias dist-upgrade='update && upgrade'
