@@ -52,6 +52,7 @@ libusb-compat
 linux
 linux-atm
 linux-firmware
+linux-firmware-marvell
 lsscsi
 lvm2
 lynx
@@ -252,8 +253,8 @@ qt5ct
 plank
 polybar
 kvantum
+gtk-wallpapers
 dracula-icons-git
-xero-gtk-wallpapers
 ant-dracula-gtk-theme
 fluent-cursor-theme-git
 nerd-fonts-jetbrains-mono
@@ -306,6 +307,7 @@ gtk-doc
 gts
 hardinfo
 hddtemp
+htop
 hw-probe
 intltool
 jsoncpp

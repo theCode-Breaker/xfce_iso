@@ -30,6 +30,9 @@ alias matrix='cmatrix -s -C cyan'
 # Path to your Snap installation.
 export PATH=$PATH:/snap/bin
 
+# Path to your Snap installation.
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 #iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
