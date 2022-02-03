@@ -305,7 +305,7 @@ grsync
 gtest
 gtk-doc
 gts
-hardinfo
+hardinfo-gtk3
 hddtemp
 htop
 hw-probe
