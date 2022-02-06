@@ -7,4 +7,4 @@ ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://xerolinux.xyz/"
 LOGO=xerolinux-xfce
 IMAGE_ID=xerolinux-xfce
-IMAGE_VERSION=2022.02.01
+IMAGE_VERSION=2022.03.01
