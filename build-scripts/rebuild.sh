@@ -150,37 +150,6 @@ echo
 	mkdir $buildFolder
 	cp -r ../archiso $buildFolder/archiso
 
-# echo
-# echo "################################################################## "
-# tput setaf 2
-# echo "Phase 4 :"
-# echo "- Deleting any files in /etc/skel"
-# echo "- Getting the last version of bashrc in /etc/skel"
-# echo "- Removing the old packages.x86_64 file from build folder"
-# echo "- Copying the new packages.x86_64 file to the build folder"
-# echo "- Changing group for polkit folder"
-# tput sgr0
-# echo "################################################################## "
-# echo
-
-#	echo "Deleting any files in /etc/skel"
-#	rm -rf $buildFolder/archiso/airootfs/etc/skel/.* 2> /dev/null
-#	echo
-
-#	echo "Getting the last version of bashrc in /etc/skel"
-#	echo
-#	wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
-
-#	echo "Removing the old packages.x86_64 file from build folder"
-#	rm $buildFolder/archiso/packages.x86_64
-#	echo
-#	echo "Copying the new packages.x86_64 file to the build folder"
-#	cp -f ../archiso/packages.x86_64 $buildFolder/archiso/packages.x86_64
-#	echo
-#	echo "Changing group for polkit folder"
-#	sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
-#	#is not working so fixing this during calamares installation
-
 echo
 echo "################################################################## "
 tput setaf 2
@@ -247,7 +216,6 @@ echo
  	echo "Moving pkglist.x86_64.txt"
  	echo "########################"
  	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/xerolinux-xfce-pkglist.txt
-
 
 #echo
 #echo "##################################################################"
