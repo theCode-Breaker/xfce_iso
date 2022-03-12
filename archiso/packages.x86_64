@@ -358,7 +358,7 @@ zip
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
-thunar-shares-plugin
+#thunar-shares-plugin
 thunar-volman
 
 
@@ -461,7 +461,7 @@ lshw
 paru-bin
 synapse
 sysprof
-systemd-manager
+systemd-manager-git
 yad
 
 #######################################################
@@ -566,4 +566,4 @@ ffmpegthumbs
 
 ##### want to add/use the ArcoLinux repos
 
-arcolinux-keyring
+#arcolinux-keyring
